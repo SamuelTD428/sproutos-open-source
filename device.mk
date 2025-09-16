@@ -22,6 +22,9 @@ LOCAL_PATH := device/samsung/espresso
 # This is a wifi-only device
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carrier=wifi-only
+    ro.product.brand=Sprout \
+    ro.product.model=Sprout OS \
+    ro.product.name=espresso
 
 # Include wifi-only overlays
 DEVICE_PACKAGE_OVERLAYS += \
